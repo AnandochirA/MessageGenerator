@@ -1,0 +1,303 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    background-color: #f0f0f0;
+    color: #010101;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(135deg, #a057f9, #6d2fbb); /* Gradient background */
+    padding: 20px 0; /* Increase padding for better spacing */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    position: sticky; /* Make header sticky */
+    top: 0;
+    z-index: 1000; /* Ensure header stays on top */
+}
+
+/* Navigation styles */
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center-align items */
+    gap: 20px; /* Add space between items */
+}
+
+/* Navigation item styles */
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s, transform 0.3s; /* Smooth transitions for color and transform */
+    font-family: 'Montserrat', sans-serif; /* Modern font */
+    font-size: 1em; /* Font size */
+    padding: 10px 15px; /* Padding for better click area */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect for navigation links */
+header nav ul li a:hover {
+    color: #020202; /* Change text color on hover */
+    background-color: rgba(255, 255, 255, 0.2); /* Add slight background on hover */
+    transform: scale(1.1); /* Slightly enlarge the text on hover */
+}
+/* General heading styles */
+h1 {
+    text-align: center; /* Center-align text */
+    margin-bottom: 20px; /* Space below the headings */
+    font-family: 'Roboto', sans-serif; /* Use a modern, clean font */
+    color: #080808; /* Color for the headings */
+    letter-spacing: 2px; /* Space between letters for better readability */
+}
+
+/* Specific styles for h2 */
+h2 {
+    font-family: 'Montserrat';
+    font-size: 2em; /* Slightly smaller than h1 */
+    font-weight: 600; /* Semi-bold font weight */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Add a custom font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+
+/* General button styles */
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #020202; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    font-size: 1em; /* Font size */
+    font-family: 'Montserrat', sans-serif; /* Use a modern font */
+    font-weight: 600; /* Semi-bold font weight */
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    letter-spacing: 1px; /* Letter spacing for readability */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #cc01ff; /* Slightly lighter shade on hover */
+    transform: translateY(-2px); /* Lift button on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Active state effect */
+button:active {
+    transform: translateY(0); /* Reset lift effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on active */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background: linear-gradient(135deg, #a057f9, #6d2fbb); /* Gradient background */
+    color: #ffffff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    font-family: 'Montserrat', sans-serif; /* Modern font */
+}
+
+/* Footer navigation styles */
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0; /* Adjust margin for better spacing */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center-align items */
+    gap: 20px; /* Add space between items */
+}
+
+/* Footer list item styles */
+footer ul li {
+    margin: 0;
+}
+
+/* Footer link styles */
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s, transform 0.3s; /* Smooth transitions for color and transform */
+    font-size: 1em; /* Font size */
+    padding: 10px 15px; /* Padding for better click area */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect for footer links */
+footer ul li a:hover {
+    color: #020202; /* Change text color on hover */
+    background-color: rgba(255, 255, 255, 0.2); /* Add slight background on hover */
+    transform: scale(1.1); /* Slightly enlarge the text on hover */
+}
+
+/* General section styling */
+section {
+    margin-bottom: 40px;
+}
+
+/* Paragraph styling */
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555555;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* About Us section */
+#about {
+    background-color: #c0a3ef;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact section */
+#contact {
+    background-color: #d8dfe6;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#resources {
+    background-color: #ebcfe6;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+#quotes {
+    background-color: #baf5c6;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+#testimonials {
+    background-color: #f0fb9f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* General container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header section styles */
+.header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Fancy Motivation box styles */
+.motivation-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px; /* Increase height for more space */
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Fancy shadow */
+    margin: 0 auto 20px; /* Center and add space below */
+    padding: 20px; /* Add padding inside the box */
+    position: relative; /* For the decorative element */
+    overflow: hidden; /* Hide overflow for fancy effect */
+    color: white; /* Text color */
+    font-size: 1.5em; /* Increase font size */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Custom font */
+}
+
+.motivation-box::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+    transform: rotate(45deg);
+}
+
+/* Stylish text for motivation */
+#motivation-text {
+    font-size: 1.5em; /* Larger font size */
+    color: #ffffff; /* White text color */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align text */
+    margin: 0; /* Remove margin */
+    padding: 0 20px; /* Add padding for better spacing */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add text shadow for depth */
+    font-family: 'Pacifico', cursive; /* Use a stylish, custom font */
+}
+/* General button styles */
+button #motivationButton {
+    display: block;
+    margin: 20px auto; /* Center button */
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #000000, #333333); /* Gradient background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    font-size: 1em; /* Font size */
+    font-family: 'Montserrat', sans-serif; /* Modern font */
+    font-weight: 600; /* Semi-bold font weight */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Letter spacing for readability */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Hover effect */
+button#motivationButton:hover {
+    background: linear-gradient(135deg, #024604, #12c480); /* Gradient change on hover */
+    transform: translateY(-2px); /* Lift button on hover */
+    box-shadow: 0 6px 8px rgba(156, 104, 104, 0.2); /* Enhance shadow on hover */
+}
+
+/* Active state effect */
+button#motivationButton:active {
+    transform: translateY(0); /* Reset lift effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on active */
+}
+/* Paragraph styles */
+.container p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
